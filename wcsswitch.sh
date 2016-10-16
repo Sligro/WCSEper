@@ -7,8 +7,10 @@
 # Version 1.0.
 #####################################################################
 
-#logfile=/var/log/wcsswitchmq.log
-logfile=~/wcsswitchmq.log
+logfile=/var/log/wcsswitchmq.log
+
+# for testing purposes use this logfile if permissions in /var/log are not set.
+#logfile=~/wcsswitchmq.log
 
 echo "start script on:" >> $logfile
 echo $(date) >> $logfile
