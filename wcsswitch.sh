@@ -15,7 +15,7 @@ echo $(date) >> $logfile
 
 mqport=1414
 sleepcheckconnection=3
-sleepbeforeswitch=10
+sleepbeforeswitch=120
 
 countnumbercalls=5
 
