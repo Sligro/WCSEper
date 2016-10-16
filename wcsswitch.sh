@@ -9,7 +9,7 @@
 
 logfile=/var/log/wcsswitchmq.log
 
-# for testing purposes use this logfile if permissions in /var/log are not set.
+# for testing purposes use this log file in homedir if permissions in /var/log are not set.
 #logfile=~/wcsswitchmq.log
 
 echo "start script on:" >> $logfile
